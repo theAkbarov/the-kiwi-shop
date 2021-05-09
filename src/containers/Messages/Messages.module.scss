@@ -1,0 +1,147 @@
+.Container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  15px;
+    box-sizing:border-box
+}
+.MessagenrApp {
+    display: flex;
+    height: 55vh;
+    background: #FFFFFF;;
+    .UsersList{
+        width: 40%;
+        .ListWrapper{
+            overflow: scroll;
+            height: 100%;
+            .List{
+             background: rgba(182, 202, 251, 0.125113);
+             display: flex;
+             align-items: center;
+             padding: 24px 14px;
+             .UserInfo{
+                 margin-left: 16px;
+                 h4{
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 12px;
+                     line-height: 15px;
+                     letter-spacing: 0.2px;
+                     color: #25252B;
+                 }
+                 h3{
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 15px;
+                     line-height: 18px;
+                     color: #25252B;
+                 }
+             }
+             .ListActions{
+                 margin-left: 35px;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: end;
+                 align-items: flex-end;
+
+                 button{
+                     background: none;
+                     border :none;
+                     display: block;
+                     
+                 }
+                 p{
+                     font-style: normal;
+                     font-weight: 500;
+                     font-size: 12px;
+                     line-height: 15px;
+                     text-align: right;
+                     letter-spacing: 0.2px;
+                     color: #686871;
+                 }
+             }
+         }
+     }
+    }
+    .ChatLayout{
+        padding: 32px 52px 32px 72px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .btnGroup{
+            display: flex;
+            button{
+                background: none;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .ChatHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dFlex{
+        display: flex;
+        align-items: center;
+        .username{
+            margin-left: 16px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.233333px;
+            color: #25252B;
+            border-bottom: 1px solid #E1E6ED;
+        }
+    }
+}
+.chatInput{
+    .chatControl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            background: none;
+            border: none;
+
+        }
+        .SendBtn{
+            padding: 11px 21px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 17px;
+            box-shadow: 0px 2px 24px rgba(72, 128, 255, 0.2);
+            border-radius: 20px;
+            background: #41D481;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #FFFFFF;
+            svg{
+                margin-left: 8px;
+            }
+        }
+    }
+    .chatContent{
+        display: flex;
+        flex: 2;
+    }
+    .TextArea {
+        background: #FFFFFF;
+        border: 1px solid #EBECF0;
+        border-radius: 5px;
+        width: 100%;
+        padding: 16px 24px;
+        box-sizing: border-box;
+        resize: none;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

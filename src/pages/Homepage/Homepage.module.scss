@@ -1,0 +1,57 @@
+.HomePage{
+    background: white;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.SortLinkItem{
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #9B9B9B;
+    background: none;
+    border: none;
+    &.active{
+        color: #4E72CA;
+    }
+}
+.SortLink{
+    border-bottom: 1px solid #D5D5D5;
+}
+.CardsWrapper{
+        display: flex;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+}
+.viewMoreBtn{
+    display: flex;
+    padding: 20px 0;
+    border-top: 1px solid rgba(182, 202, 251, 0.606827);
+    justify-content: center;
+    button{
+        font-size: 15px;
+        line-height: 18px;
+        color: #4E72CA;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        span{
+            transform: rotate(90deg);
+            margin-left: 10px;
+        }
+    }
+}
+.content{
+    
+}

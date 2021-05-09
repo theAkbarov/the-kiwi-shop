@@ -1,0 +1,57 @@
+ .AddFundsBtn {
+     padding: 8px 22px 8px 46px;
+     position: relative;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #000000;
+     background: #FFFFFF;
+     border: 1px solid #41D481;
+     box-sizing: border-box;
+     border-radius: 100px 5px 5px 100px;
+
+     span {
+         background: #41D481;
+         display: inline-block;
+         position: absolute;
+         left: 0;
+         border-radius: 50%;
+         top: 0;
+         bottom: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 35px;
+         height: 35px;
+     }
+ }
+ .AddFundsBtnRed{
+          padding: 8px 22px 8px 46px;
+          position: relative;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+          background: #FFFFFF;
+          border: 1px solid #41D481;
+          box-sizing: border-box;
+          border-radius: 100px 5px 5px 100px;
+
+          span {
+              display: inline-block;
+              position: absolute;
+              background: #304FFF;
+
+              left: 0;
+              border-radius: 50%;
+              top: 0;
+              bottom: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 35px;
+              height: 35px;
+          }
+ }

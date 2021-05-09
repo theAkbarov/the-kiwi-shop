@@ -1,0 +1,62 @@
+.Container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 1px 15px;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+.Headeer{
+background: #FFFFFF;
+}
+.ProfileAppbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+border-bottom: 1px solid rgba(151, 151, 151,0.3);
+    .Container{
+        display: flex;justify-content: space-between;align-items: center;
+    }
+
+    .UserBalance {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            text-align: center;
+            display: inline-block;
+            margin-right: 26px;
+            color: #304FFF;
+        }
+    }
+
+}
+
+.AppbarNav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+
+    .NavItem{
+        font-style: normal;
+        font-weight: 500;
+        padding: 15px 0;
+        position: relative;
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        color: #414D6A;
+
+    }
+}
+
+.content{
+background: rgba(0, 0, 0, 0.0470165);
+}

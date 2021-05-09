@@ -1,0 +1,53 @@
+.top {
+    padding: 23px 0;
+    background: #282B30;
+
+    .Container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button {
+        background: none;
+        border: none;
+
+    }
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.footerTxt {
+    font-style: normal;
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    line-height: 17px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.QanaqadurText {
+    width: 307px;
+    font-family: Gilroy;
+    font-style: normal;
+    margin: 0;
+    width: 30%;
+    margin-left: 9rem;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #98A4B7;
+}
+    .Container {
+        max-width: 1140px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }

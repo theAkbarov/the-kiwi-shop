@@ -1,0 +1,28 @@
+
+.dFlex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(182, 202, 251, 0.606827);
+}
+.BtnWrapper{
+ display: flex;   
+ justify-content: center;
+ padding: 22px 0;
+    button{
+         font-size: 15px;
+         font-weight: bold;
+         line-height: 18px;
+         color: #4E72CA;
+         background: none;
+         border: none;
+         display: flex;
+         align-items: center;
+         svg{
+             width: 15.5px;
+             margin-left: 10px;
+             height: 20px;
+         }
+    }
+}

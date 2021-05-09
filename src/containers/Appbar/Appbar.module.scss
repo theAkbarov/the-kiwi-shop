@@ -1,0 +1,80 @@
+.Appbar{
+    background: #FFFFFF;
+    box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+    padding: 15px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btnGroup{
+        display: flex;
+        button{
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+    .dFlex{
+        display: flex;
+        margin-left: 66px;
+    }
+}
+.langSwitcher {
+    .LangBtn {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4A4A4A;
+        padding: 0 15px;
+        position: relative;
+        &:first-child{
+            border-right: 2px solid #4a4a4a;
+        }
+        &::before{
+            content: '';
+            transform: translate(-8px, 9px) rotate(-38deg);
+            width: 40px;
+            position: absolute;
+            top: 0;
+             height: 4px;
+             background:rgba(246, 218, 194, 0.831324);
+        }
+        &.active{
+            display: none !important;
+        }
+    }
+    .loginBtn.active:before{
+        display: none;
+    }
+}
+.LoginSide{
+    button{
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+color: #4E72CA;
+    }
+}
+.UserProfiel{
+    display: flex;
+    align-items: center;
+    a{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 21px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 13px;
+            color: #787993;
+    }
+}

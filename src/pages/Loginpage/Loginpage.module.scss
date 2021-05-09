@@ -1,0 +1,120 @@
+.LoginPage{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items:center;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    height: 70vh;
+    .Left{
+        width: 50%;
+        .LoginHeader{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 22px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        .LoginSubHeader{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            margin-bottom: 11px;
+            line-height: 23px;
+            text-align: center;
+            color: #304FFF;
+        }
+    }
+    .Right{
+        width: 50%;
+        background: url('../../assets/images/LoginPageBg.png');
+            background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20rem 60px 60px 60px;
+        .content{
+            background: url('../../assets/images/LoginPageRec.png');
+            background-size: contain;
+            width: 275px;
+            height: 275px;
+            padding: 79px 60px 40px 41px;
+            background-repeat: no-repeat;
+            .Button{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                color: #41D481;
+                padding: 10px 20px;
+                border: 2px solid #41D481;
+                box-sizing: border-box;
+                border-radius: 5px;
+                background: transparent;
+            }
+            .contentText{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 19px;
+                line-height: 21px;
+                color: #787993;
+            }
+        }
+        
+    }
+}
+.Or{
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #787993;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        height: 1px ;
+        width: 160px;
+        background: #979797;
+        top: 0;
+        bottom: 0;
+        right: 15%;
+        margin: auto;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        height: 1px ;
+        width: 160px;
+        background: #979797;
+        top: 0;
+        bottom: 0;
+        left: 15%;
+        margin: auto;
+    }
+}
+.RestorePsw{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4E72CA;
+    background: transparent;
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+}
+.Warnig{
+    padding: 0 20px
+}
+.demo{
+    position: absolute;
+    top: 25%;
+    right: 80%;
+}

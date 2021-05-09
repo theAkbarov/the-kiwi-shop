@@ -1,0 +1,21 @@
+.Container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.RecommendationBtn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 13px;
+    background: none;
+    border:none;
+    line-height: 30px;
+    color: #9B9B9B;
+}
+.RecommendationAppbar {
+    border-bottom: 1px solid #D5D5D5;
+    margin-bottom: 22px;
+}

@@ -1,0 +1,80 @@
+.Container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SearchButton{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #19D476;
+    border-radius: 22px;
+    padding: 14px 18px;
+    line-height: 17px;
+    margin-left: 18px;
+    border: none;
+}
+.Right {
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    box-sizing: border-box;
+    width: 77%;
+    border-radius: 22.5px;
+}
+.AppBarFormItem{
+    border: none;
+    background: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    padding: 13px 30px !important;
+    color: #000000;
+    &:nth-child(2){
+        border-right: 1px solid rgba(151, 151, 151, 0.496575);
+        border-left: 1px solid rgba(151, 151, 151, 0.496575);
+        width: 100%;
+        margin-left: 18px;
+    }
+    &::placeholder{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+    }
+}
+.ItemAdderBtn{
+    background: #19D476;
+    border-radius: 22px;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    align-items: center;
+    border: none;
+    justify-content: space-between;
+    color: #FFFFFF;
+    .plusIcon{
+        background: #11B463;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        border-radius: 22px;
+        width: 44px;
+        transform: translate(-5px, 0px);
+    }
+}
+.Right{
+    display: flex;
+    align-items: center
+}

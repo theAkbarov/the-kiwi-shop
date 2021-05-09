@@ -1,0 +1,135 @@
+@import '../fonts/stylesheet.css';
+@import "react-image-gallery/styles/scss/image-gallery.scss";
+@import './normalize.scss';
+
+body {
+    font-family: 'Gilroy' !important;
+}
+
+.btn-changer {
+    &.active::before {
+        display: none;
+    }
+}
+
+.ActivePage {
+    color: #4E72CA !important;
+    transition: all ease 0.45s;
+    position: relative;
+
+    &::before {
+        content: '';
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 2px solid #4E72CA;
+        width: 120px;
+    }
+}
+
+.ant-spin-dot {
+    font-size: 45px !important;
+    font-weight: 900;
+
+}
+
+.spinner {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.image-gallery-image {
+    height: 461px;
+    object-fit: contain;
+}
+
+::-webkit-scrollbar-track{
+    background: cyan;
+    color: red
+}
+
+
+.blueLinear {
+    background: linear-gradient(299deg, rgba(255, 158, 131, 1) 35%, rgba(180, 226, 225, 1) 35%);
+}
+
+.pinkLinear {
+    background: linear-gradient(299deg, #B6CAFB 35%, #F6DAC2 35%)
+}
+
+.yellowLinear {
+    background: linear-gradient(299deg, rgba(5, 243, 179, 1) 35%, rgba(247, 226, 51, 1) 35%);
+}
+
+.Brands_Brands__9HqUO .slick-slide {
+    width: 340px !important;
+    margin-right: 30px !important;
+}
+
+.StyleModule_ListItem__1SC1L p{
+    margin: 0;
+}
+.login-page {
+
+    .ant-row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}
+
+.ant-form-item-control {
+    // background: #FFFFFF !important;
+    // border: 1px solid rgba(151, 151, 151, 0.482592) !important;
+    // box-sizing: border-box !important;
+    // border-radius: 5px !important;
+    width: 330px !important;
+    // box-sizing: border-box !important
+}
+
+.activeNav {
+    color: #304FFF !important;
+
+    &::before {
+        position: absolute;
+        content: '';
+        height: 2px;
+        width: 62px;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        background: #304FFF;
+
+    }
+}
+
+.ant-form-item-label {
+    overflow: unset !important;
+}
+
+.ant-btn-primary {
+    width: 100% !important;
+    background: #41D481;
+    border-radius: 5px;
+    height: 41px;
+    border: none;
+}
+
+.ant-form-horizontal {
+    padding-left: 8rem;
+}
+
+.me2 {
+    margin-left: 22px !important;
+    display: inline-block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}

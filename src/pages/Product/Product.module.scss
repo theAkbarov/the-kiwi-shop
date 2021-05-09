@@ -1,0 +1,72 @@
+
+.Container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing:border-box;
+    min-height: 70vh;
+}
+.BreadCrum{
+    padding: 24px 0;
+}
+.dFlex{
+    display: flex;
+    align-items: flex-start;
+    .left{
+        width: 50%;
+
+    }
+    .right{
+        width: 50%;
+        padding-left: 31px;
+        .productPrice{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 49px;
+            letter-spacing: -0.00016833px;
+            margin-bottom: 8px;
+            color: #444444;
+        }
+        .ItemLocation{
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: -5.89154e-05px;
+            margin-bottom: 14px;
+            text-decoration-line: underline;
+            color: #4E72CA;
+        }
+    }
+}
+.AuthorProduct{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 17px 0 24px;
+    letter-spacing: -3.17237e-05px;
+    color: #000000;
+    span{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -4.13787e-05px;
+        text-decoration-line: underline;
+        color: #2AAE63;
+    }
+}
+.ActionsToAuth{
+    background: #4E72CA;
+    border-radius: 23.5px;
+    border: none;
+    margin-right: 11px;
+    padding: 15px 32px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: -5.89155e-05px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.ProductTable{margin-bottom: 90px;}

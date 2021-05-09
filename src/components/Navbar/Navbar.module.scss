@@ -1,0 +1,29 @@
+.NavbarItem{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    line-height: 17px;
+    color: #4A4A4A;
+    text-decoration: none;
+    .imgholder{
+            border-radius: 20px;
+            margin: 0 auto;
+            width: 75px;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+}
+.Navbar{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    position: relative;
+}

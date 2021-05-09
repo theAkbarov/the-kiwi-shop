@@ -1,0 +1,29 @@
+.ClientNumber {
+    background: #65E99F;
+    border-radius: 18.5px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    display: flex;
+    min-width: 367px;
+    align-items: center;
+    letter-spacing: -6.73319e-05px;
+        padding: 10px 24px;
+    margin-bottom: 7px;
+    position: relative;
+    span {
+        font-weight: normal;
+        position: absolute;
+        right: 0;
+        font-size: 15px;
+        margin-left: 12px;
+        line-height: 18px;
+        color: #000000;
+        background: #41D481;
+        transform: translateX(6px);
+        border-radius: 18.5px;
+        padding: 10px 24px;
+    }
+}

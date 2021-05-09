@@ -1,0 +1,12 @@
+.Wrapper{
+    position: absolute;
+background: #DADADA;
+width: 100%;
+padding: 15px 25px;
+flex-wrap: wrap;
+display: flex;
+    a{
+        display: inline-block;
+        padding: 7px 10px;
+    }
+}
